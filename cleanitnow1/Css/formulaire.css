@@ -1,0 +1,148 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+align-items: center;
+background-image: url(/Images/oatmeal-dryfruits-with-bird-paradise-flower-white-background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+opacity: rgba(0 0 0 .1);
+}
+
+/* inscreption */
+h1{
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.for-insc{
+width: 80%;
+display: grid;
+margin: 0 auto;
+justify-content:center;
+align-items: center;
+}
+.for-insc label{
+text-align: left;
+margin: auto;
+}
+input[type=nom]{
+width: 105%;
+margin: 0 auto;
+padding: 10px 15px;
+align-items: center;
+}
+input[type=prenom]{
+width: 105%;
+margin: 0 auto;
+padding: 10px 15px;
+align-items: center;
+}
+input[type=email]{
+width: 105%;
+margin: 0 auto;
+padding: 10px 15px;
+align-items: center;
+}
+input[type=radio]{
+width: 105%;
+margin: 0 auto;
+padding: 10px 15px;
+align-items: center;
+}
+.civillite{
+border: 2px solid white;
+background-color: white;
+border-radius: 4px;
+padding: 10px 15px;
+margin: 0 auto;
+width: 104%;
+display: flex;
+align-items: center;
+}
+/* fin inscription */
+/* objectif*/
+h3{
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.checkbox1{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1%;
+font-size: 22px;
+}
+.checkbox2{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1%;
+font-size: 22px;
+}
+.checkbox3{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1%;
+font-size: 22px;
+}
+.checkbox4{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1%;
+font-size: 22px;
+}
+#checkbox{
+background-color: rgba(0, 0, 0, 0.205);
+height: 300px;
+}
+h3{
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 1%;
+font-size: xx-large;
+}
+/* fin objectif */
+
+/* DOCS MED */
+input[type=file]{
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 20%;
+background-color: white;
+margin: 0 auto;
+margin-top: 10px;
+padding: 12px 20px;
+display: flex;
+justify-content: center;
+}
+input[type=submit]{
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 20%;
+background-color: white;
+margin: 0 auto;
+margin-top: 10px;
+padding: 12px 20px;
+display: flex;
+justify-content: center;
+}
+input[type=reset]{
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 20%;
+background-color: white;
+margin: 0 auto;
+margin-top: 10px;
+padding: 12px 20px;
+display: flex;
+justify-content: center;
+}
+/* FIN DOCS MED */

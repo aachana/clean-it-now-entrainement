@@ -1,0 +1,203 @@
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+width: 100%;
+align-items: center;
+font-family: 'Bodoni Moda', serif;
+}
+
+/* Header */
+
+.menu ul {
+align-items: center;
+color: white;
+list-style: none;
+width: 100%;
+padding: 1%;
+display: flex;
+justify-content: space-around;
+}
+
+.menu a{
+justify-content: center;
+display: block;
+color: black;
+text-align: center;
+text-decoration: none;
+}
+/* fin header */
+
+/* Main */ 
+
+main{
+background-image: url(./Images/oatmeal-dryfruits-with-bird-paradise-flower-white-background.jpg); background-repeat: none;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+.CleanItNow{
+font-size: 150%;
+align-items: center;
+text-align: center;
+/*margin: 0%;*/
+padding: 5%;
+display: flex;
+justify-content: space-between;
+background-color: rgba(0, 0, 0, 0.205);
+border: 3px solid white;
+}
+span{
+color: rgba(25, 180, 25, 0.89);
+}
+h1{
+width: 100%;
+margin-bottom: 10px;
+text-align: center;
+}
+h2{
+font-size: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+align-items: center;
+}
+
+.tab-valeur{
+border: 2px solid black;
+align-items: center;
+text-align: center;
+margin-top: 5px;
+border-collapse: collapse;
+width: 100%;
+}
+
+table{
+width: 75%;
+margin: 0 auto;
+font-size: 150%;
+}
+
+th{
+border: 1px solid black;
+background-color: white;
+}
+
+td{
+background: white;
+border: 1px solid black;
+color: black;
+}
+p{
+width: 50%;
+text-align: center;
+margin: 0 auto;
+font-size: 150%;
+}
+.calcul{
+align-items: center;
+display: flex;
+margin: 0 auto;
+padding: 4%;
+width: 100%;
+}
+.lab{
+align-items: center;
+display: flex;
+justify-content: space-around;
+}
+input[type=taille]{
+width: 20%;
+padding: 12px 20px;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=poids]{
+width: 20%;
+padding: 12px 20px;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=button]{
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 20%;
+background-color:white;
+margin: 0 auto;
+margin-top: 10px;
+/*margin-bottom: 40px;*/
+padding: 12px 20px;
+display: flex;
+justify-content: center;
+}
+input[type=button]:hover {
+background-color: rgba(23, 199, 23, 0.445);
+}
+label{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+iframe{
+display: flex;
+width: 30%;
+margin: 0 auto;
+border: 2px solid #ccc;
+border-radius: 4px;
+}
+.contact section{
+display: flex;
+justify-content: space-between;
+width: 50%;
+margin: 0 auto;
+align-items: center;
+}
+.contact :hover{
+box-shadow: 0px 0px 5px 0 #0000002c;
+}
+.contact-item{
+width: 30%;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 0px 0px 18px 0 #0000002c;
+transition: .3s ease box-shadow;
+}
+
+/* End Main */
+
+/* footer*/ 
+#cin{
+text-decoration: none;
+}
+.footer{
+color: black;
+font-size: 80%;
+margin: 0 auto;
+}
+.icon{
+display: inline-block;
+justify-content: center;
+align-items: center;
+width: 90%;
+margin: 0 auto;
+}
+/* end of footer */
